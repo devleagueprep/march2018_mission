@@ -42,13 +42,13 @@ var SUV = 25;
 
 function totalGas(car){
   if (car === smallCar){
-    console.log(12);
+    console.log(12 + ' gallons');
   }
   if (car === largeCar){
-    console.log(18);
+    console.log(18 + ' gallons');
   }
   if (car === SUV){
-    console.log(25);
+    console.log(25 + ' gallons');
   }
 }
 
