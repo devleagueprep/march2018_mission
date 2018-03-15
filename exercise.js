@@ -23,8 +23,15 @@ var numBox = [1,3,5,7,9,11,13,15];
 Team Member: Abby
 
 Create a function that will convert the value of Bitcoin to USD based on today's rate. If the Bitcoin to USD rate is greater than $10,000 return 'Too expensive to buy' otherwise return "I'm going all in!"*/
-
-
+function bitCoinRate(num){
+	var bitcoinToUsd = num * 7755 ;
+	if(bitcoinToUsd > 10000){
+		console.log("Too expensive to buy");
+	}else{
+		console.log("I'm going all in!");
+	}
+}
+bitCoinRate(1);
 /*Mission 4:
 Team Member: Kenny
 
