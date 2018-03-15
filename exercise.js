@@ -10,6 +10,14 @@ Create a function that will double the value of each number in the array and ret
 
 var numArr = [2, 3, 10];
 
+function doubleTrouble(){
+  for(var i=0;i<numArr.length;i++){
+    console.log(numArr[i]);
+    numArr.splice(i,1,numArr[i]*2);
+  }
+}
+doubleTrouble(numArr);
+console.log(numArr);
 
 /*Mission 2: 
 Team Member: Mckarl
