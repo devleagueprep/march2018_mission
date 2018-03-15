@@ -36,6 +36,25 @@ large car: 18 gallons
 SUV: 25 gallons
 */
 
+var smallCar = 12;
+var largeCar = 18;
+var SUV = 25;
+
+function totalGas(car){
+  if (car === smallCar){
+    console.log(12);
+  }
+  if (car === largeCar){
+    console.log(18);
+  }
+  if (car === SUV){
+    console.log(25);
+  }
+}
+
+totalGas(SUV);
+
+
 
 
 
