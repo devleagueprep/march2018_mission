@@ -17,7 +17,12 @@ Team Member: Mckarl
 Create a function that will sum up only the even indexed numbers in the array and return a new array.*/
 
 var numBox = [1,3,5,7,9,11,13,15];
-
+function getSum(numb){
+  for(i=0; i<numb; i++)
+    if(i%2 !== 0)
+      numb += i;
+}
+console.log(getSum(numBox));
 
 /*Mission 3:
 Team Member: Abby
