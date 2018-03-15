@@ -1,6 +1,6 @@
 # march2018_mission
 
-##Please accept the invitation to be a contributor for this special mission.
+## Please accept the invitation to be a contributor for this special mission.
 
 1. **Clone** this repository from your personal Github account:
     - Copy the HTTPS or SSH address on the page.
